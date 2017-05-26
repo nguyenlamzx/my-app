@@ -2,9 +2,11 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nguyenlamzx.github.io/my-app",
   "devDependencies": {
     "@kadira/storybook": "^2.21.0",
     "@kadira/storyshots": "^2.1.0",
+    "gh-pages": "^1.0.0",
     "react-scripts": "1.0.6"
   },
   "dependencies": {
@@ -20,6 +22,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "test-storybook": "storyshots"
+    "test-storybook": "storyshots",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }

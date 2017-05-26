@@ -1,0 +1,25 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0",
+    "@kadira/storyshots": "^2.1.0",
+    "react-scripts": "1.0.6"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.5.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public",
+    "test-storybook": "storyshots"
+  }
+}

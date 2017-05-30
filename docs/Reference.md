@@ -11,3 +11,4 @@
 * [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
 * [How to Structure Your React Project](https://daveceddia.com/react-project-structure/)
 * [Reactjs on reddit.com](https://www.reddit.com/r/reactjs/top/?sort=top&t=week)
+* [React Forms: Using Refs](https://css-tricks.com/react-forms-using-refs/)

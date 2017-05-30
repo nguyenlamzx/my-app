@@ -6,6 +6,7 @@
   "devDependencies": {
     "@kadira/storybook": "^2.21.0",
     "@kadira/storyshots": "^2.1.0",
+    "cross-env": "^5.0.0",
     "gh-pages": "^1.0.0",
     "react-scripts": "1.0.6"
   },
@@ -16,9 +17,9 @@
     "react-dom": "^15.5.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "start": "cross-env NODE_PATH=src react-scripts start",
+    "build": "cross-env NODE_PATH=src react-scripts build",
+    "test": "cross-env NODE_PATH=src react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",

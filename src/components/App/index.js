@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-import Header from '../Header'
+import Header from 'components/Header'
 
 import logo from 'assets/logo.svg'
 

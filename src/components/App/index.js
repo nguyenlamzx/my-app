@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-import Header from 'components/Header'
+import Header from '../Header'
+import Layout from '../Layout'
+import Wrapper from '../Layout/Wrapper'
 
-import logo from 'assets/logo.svg'
+import logo from '../../assets/logo.svg'
 
 class App extends Component {
   render() {
@@ -21,10 +23,6 @@ class App extends Component {
 export default App
 
 // styled-components
-const Wrapper = styled.div`
-  padding: 30px;
-  text-align: center;
-`
 
 const Intro = styled.p`
   font-size: large;

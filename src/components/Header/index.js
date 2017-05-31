@@ -16,6 +16,7 @@ const Wrapper = styled.div`
   height: 150px;
   padding: 20px;
   color: white;
+  text-align: center;
 
   > h2 {
     color: black;

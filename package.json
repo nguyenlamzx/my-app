@@ -6,15 +6,16 @@
   "devDependencies": {
     "@kadira/storybook": "^2.21.0",
     "@kadira/storyshots": "^2.1.0",
-    "cross-env": "^5.0.0",
+    "cross-env": "5.0.0",
     "gh-pages": "^1.0.0",
-    "react-scripts": "1.0.6"
+    "react-scripts": "^1.0.7"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^15.5.4",
     "react-bootstrap": "^0.31.0",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "styled-components": "^2.0.0"
   },
   "scripts": {
     "start": "cross-env NODE_PATH=src react-scripts start",

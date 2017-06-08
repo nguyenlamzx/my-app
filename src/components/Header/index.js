@@ -1,5 +1,4 @@
 import * as React from 'react'
-import styled, { keyframes } from 'styled-components'
 
 import Logo from './Logo';
 import Wrapper from './Wrapper';

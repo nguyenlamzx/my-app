@@ -1,4 +1,10 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-  "eslint.nodePath": "./src"
+  "eslint.nodePath": "./src",
+  "emmet.useNewEmmet": true,
+  "emmet.excludeLanguages": [
+    "markdown"
+  ],
+  "emmet.showAbbreviationSuggestions": false,
+  "emmet.showExpandedAbbreviation": true
 }

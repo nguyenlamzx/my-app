@@ -6,9 +6,9 @@ import React, { Component } from 'react'
 
 // import Todo from 'components/Todo';
 
-const Home = () => (
+const Home = (props) => (
   <div>
-    <h2>Home</h2>
+    <h2>{props.name}</h2>
   </div>
 )
 

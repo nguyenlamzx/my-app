@@ -8,7 +8,7 @@ import React from 'react'
 
 const Home = (props) => (
   <div>
-    <h2>{props.name}</h2>
+    <h2>Home</h2>
   </div>
 )
 

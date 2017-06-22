@@ -22,12 +22,12 @@ class App extends Component {
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/topics" component={Topics}/>
+            <Route path="/todo" component={Todo}/>
             <Route exact path="/" render={() => (
               <Intro>
                 To get started, edit <code>src/App.js</code> and save to reload.
               </Intro>
             )}/>
-            <Route path="/todo" component={Todo}/>
             {/*<Route path="/news" component={NewsFeed}/>*/}
           </div>
         </Wrapper>

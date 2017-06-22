@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Route, Link } from 'react-router-dom'
 
 import Topic from 'containers/Topic'
@@ -7,6 +7,7 @@ const Topics = ({ match }) => (
   <div>
     <h2>Topics</h2>
     <ul>
+      {}
       <li>
         <Link to={`${match.url}/rendering`}>
           Rendering with React
@@ -30,3 +31,5 @@ const Topics = ({ match }) => (
     )}/>
   </div>
 )
+
+export default Topics

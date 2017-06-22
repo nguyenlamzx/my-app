@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 // import Wrapper from '../Layout/Wrapper'
 // import Header from '../Header'

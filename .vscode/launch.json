@@ -5,7 +5,7 @@
       "name": "Chrome",
       "type": "chrome",
       "request": "launch",
-      "url": "http://localhost:3002",
+      "url": "http://localhost:3000",
       "webRoot": "${workspaceRoot}/src",
       "userDataDir": "${workspaceRoot}/.vscode/chrome",
       "sourceMapPathOverrides": {
@@ -16,7 +16,7 @@
       "name": "Edge",
       "type": "edge",
       "request": "launch",
-      "url": "http://localhost:3002",
+      "url": "http://localhost:3000",
       "webRoot": "${workspaceRoot}/src",
       "userDataDir": "${workspaceRoot}/.vscode/edge",
       "sourceMapPathOverrides": {
@@ -27,7 +27,7 @@
       "name": "Firefox",
       "type": "firefox",
       "request": "launch",
-      "url": "http://localhost:3002",
+      "url": "http://localhost:3000",
       "webRoot": "${workspaceRoot}/src",
       "userDataDir": "${workspaceRoot}/.vscode/firefox",
       "sourceMapPathOverrides": {

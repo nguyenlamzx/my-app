@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import Wrapper from '../Layout/Wrapper'
 import Header from '../Header'
@@ -8,7 +8,6 @@ import Intro from '../Intro'
 import Todo from 'components/Todo';
 import Home from 'containers/Home';
 import About from 'containers/About';
-import Topic from 'containers/Topic';
 import Topics from 'containers/Topics';
 
 import logo from '../../assets/logo.svg'

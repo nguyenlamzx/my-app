@@ -4,7 +4,7 @@ import { Navbar } from 'react-bootstrap'
 
 import Logo from './Logo';
 import Wrapper from './Wrapper';
-import NavigateBar from './NavigateBar';
+import NavigationBar from './NavigationBar';
 
 const Header = ({logo}) => (
   <Wrapper>
@@ -16,7 +16,12 @@ const Header = ({logo}) => (
           </NavLink>
         </Navbar.Brand>
       </Navbar.Header>
-      <NavigateBar />
+      <NavigationBar items={[
+        { id: "home", href: "/", title: "Home" },
+        { id: "about", href: "/about", title: "About" },
+        { id: "topics", href: "/topics", title: "Topics" },
+        { id: "todo", href: "/todo", title: "Todo" },
+      ]}/>
     </Navbar>
     <h2>Welcome to React</h2>
   </Wrapper>

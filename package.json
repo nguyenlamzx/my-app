@@ -37,9 +37,9 @@
     "react-scripts": "^1.0.7"
   },
   "scripts": {
-    "start": "cross-env NODE_PATH=src react-scripts start",
-    "build": "cross-env NODE_PATH=src react-scripts build",
-    "test": "cross-env NODE_PATH=src react-scripts test --env=jsdom",
+    "start": "cross-env REACT_APP_VERSION=$npm_package_version NODE_PATH=src react-scripts start",
+    "build": "cross-env REACT_APP_VERSION=$npm_package_version NODE_PATH=src react-scripts build",
+    "test": "cross-env REACT_APP_VERSION=$npm_package_version NODE_PATH=src react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
 
     "storybook": "start-storybook -p 9009 -s public",
@@ -51,8 +51,7 @@
 
     "changelog": "lerna-changelog",
     "postinstall": "lerna bootstrap",
-    "format": "prettier --trailing-comma es6 --single-quote --write 'packages/*/*.js' 'packages/*/!(node_modules)/**/*.js'",
-    "precommit": "lint-staged"
+    "format": "prettier --trailing-comma es6 --single-quote --write 'packages/*/*.js' 'packages/*/!(node_modules)/**/*.js'"
   },
 
   "lint-staged": {

@@ -3,7 +3,7 @@
 import '../assets/bootstrap.css';
 
 import React from 'react';
-import { storiesOf, action, linkTo } from '@kadira/storybook';
+import { storiesOf, action, linkTo } from '@storybook/react';
 import Button from './Button';
 import Welcome from './Welcome';
 

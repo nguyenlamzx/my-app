@@ -5,7 +5,6 @@
   "description": "",
   "main": "src/index.js",
   "homepage": "https://nguyenlamzx.github.io/my-app",
-  
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^15.5.4",
@@ -14,9 +13,7 @@
     "react-router-dom": "^4.1.1",
     "styled-components": "^2.0.0"
   },
-
   "devDependencies": {
-    "@kadira/storybook": "^2.21.0",
     "@kadira/storyshots": "^2.1.0",
     "babel-eslint": "^7.2.3",
     "cross-env": "5.0.0",
@@ -29,42 +26,32 @@
     "eslint-plugin-jsx-a11y": "^6.0.0",
     "eslint-plugin-prettier": "^2.1.2",
     "eslint-plugin-react": "^7.1.0",
-    "lerna": "^2.0.0-rc.5",
-    "lerna-changelog": "^0.2.0",
     "lint-staged": "^3.6.1",
-    "pre-commit": "^1.2.2",
     "prettier": "1.5.0",
-    "react-scripts": "^1.0.7"
+    "react-scripts": "^1.0.7",
+    "@storybook/react": "3.2.8"
   },
   "scripts": {
     "start": "cross-env REACT_APP_VERSION=$npm_package_version NODE_PATH=src react-scripts start",
     "build": "cross-env REACT_APP_VERSION=$npm_package_version NODE_PATH=src react-scripts build",
     "test": "cross-env REACT_APP_VERSION=$npm_package_version NODE_PATH=src react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "test-storybook": "storyshots",
-
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-
-    "changelog": "lerna-changelog",
-    "postinstall": "lerna bootstrap",
     "format": "prettier --trailing-comma es6 --single-quote --write 'packages/*/*.js' 'packages/*/!(node_modules)/**/*.js'"
   },
-
   "lint-staged": {
     "*.js": [
       "prettier --trailing-comma es5 --single-quote --write",
       "git add"
     ]
   },
-
   "eslintConfig": {
     "extends": "airbnb"
   },
-
   "keywords": [],
   "author": "nguyenlamzx@outlook.com",
   "license": "ISC"

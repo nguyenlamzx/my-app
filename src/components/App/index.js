@@ -5,12 +5,12 @@ import Wrapper from '../Layout/Wrapper'
 import Header from '../Header'
 import Intro from '../Intro'
 
-import Todo from 'components/Todo';
-import Home from 'containers/Home';
-import About from 'containers/About';
-import Topics from 'containers/Topics';
+import Todo from '../Todo';
+import Home from '../../containers/Home';
+import About from '../../containers/About';
+import Topics from '../../containers/Topics';
 
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/logo.svg';
 
 class App extends Component {
   render() {

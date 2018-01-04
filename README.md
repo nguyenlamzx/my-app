@@ -1,9 +1,3 @@
-Just test!!!
-[![Donate with Open Source Citizen](http://www.opensourcecitizen.org/badge?url=github.com/nguyenlamzx/my-app)](http://www.opensourcecitizen.org/project?url=github.com/nguyenlamzx/my-app)
-
-If you found this library useful, donate some CPU cycles to its
-development efforts by clicking above. Thank you! 😇
-
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

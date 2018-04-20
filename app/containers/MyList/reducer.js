@@ -16,9 +16,9 @@ const initialState = fromJS({
       id: uuid(),
       type: 'text',
       title: 'In incididunt nostrud occaecat qui ex occaecat deserunt ullamco magna occaecat veniam veniam.',
-      text: 'Aliqua sunt dolor pariatur nisi. Nisi aliquip dolor eu dolor. Proident duis quis aliqua minim commodo nulla occaecat ullamco sint sunt Lorem tempor tempor cillum. Aute ullamco tempor labore consequat laboris dolor sint. Voluptate velit ea enim ullamco amet et mollit.'
-    }
-  ]
+      text: 'Aliqua sunt dolor pariatur nisi. Nisi aliquip dolor eu dolor. Proident duis quis aliqua minim commodo nulla occaecat ullamco sint sunt Lorem tempor tempor cillum. Aute ullamco tempor labore consequat laboris dolor sint. Voluptate velit ea enim ullamco amet et mollit.',
+    },
+  ],
 });
 
 function myListReducer(state = initialState, action) {
